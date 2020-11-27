@@ -1,0 +1,44 @@
+{
+  "name": "casa-benfica-tourcoing",
+  "version": "1.0.0",
+  "description": "<!-- Test 2-->",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --detectOpenHandles --coverage",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "12.18.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LJerome/Casa-Benfica-Tourcoing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LJerome/Casa-Benfica-Tourcoing/issues"
+  },
+  "homepage": "https://github.com/LJerome/Casa-Benfica-Tourcoing#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "compression": "^1.7.4",
+    "config": "^3.3.2",
+    "cors": "^2.8.5",
+    "debug": "^4.2.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "file-system": "^2.2.2",
+    "helmet": "^4.2.0",
+    "joi": "^17.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.11",
+    "multer": "^1.4.2",
+    "winston": "^3.3.3",
+    "winston-mongodb": "^5.0.5"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "supertest": "^6.0.1"
+  }
+}
