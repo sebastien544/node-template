@@ -1,0 +1,4 @@
+{
+    "db": "mongodb://localhost/node-template",
+    "jwtPrivateKey": "mySecureKey"
+}

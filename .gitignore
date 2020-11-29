@@ -3,3 +3,4 @@ uploads
 coverage
 package-lock.json
 logfile.log
+migrations/

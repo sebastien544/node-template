@@ -12,6 +12,7 @@ require('./startup/db')();
 require('./startup/routes')(app);
 
 console.log(`NODE_ENV: ${process.env.NODE_ENV}`);
+console.log(config.get('db'))
 
 if(app.get('env') === "production"){
   require('./startup/prod')(app);

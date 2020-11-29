@@ -1,0 +1,3 @@
+{
+    "db": "mongodb://localhost/node-template_tests"
+}
